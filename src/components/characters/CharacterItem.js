@@ -8,7 +8,7 @@ const CharacterItem = ({item}) => {
           <img src={item.image} alt='' />
         </div>
         <div className='card-back'>
-          <h1><strong>Name:</strong> {item.name}  |  <strong>Gender:</strong> {item.gender}</h1>
+          <h1><strong>Name:</strong> <span>{item.name}</span></h1>
 
           <ul>
             <li><strong>Title: </strong>{item.titles}</li>
